@@ -17,9 +17,4 @@ export const $route = {
 };
 
 export const $render = async (props: Props) =>
-  await renderToReadableStream(<$route.Component {...props} />).then(
-    async (route) => {
-      await route.allReady;
-      return route;
-    },
-  );
+  await renderToReadableStream(<$route.Component {...props} />)

@@ -1,0 +1,13 @@
+jsx = "react-jsx"
+jsxImportSource = "react"
+
+[define]
+"Bun.origin" = "'http://localhost:3000'"
+"Bun.env.APP_SERVER_PORT" = "'3000'"
+"Bun.env.APP_SERVER_HOSTNAME" = "'localhost'"
+"Bun.env.APP_SERVER_ORIGIN" = "'http://localhost:3000'"
+"Bun.env.APP_SERVER_URL" = "'localhost:3000'"
+"Bun.env.NODE_ENV" = "'development'"
+
+[run]
+bun = true
